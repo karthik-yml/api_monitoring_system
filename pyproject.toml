@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "api-monitoring-system"
+version = "0.1.0"
+description = "An Open-Source API Monitoring System is a backend project designed to monitor APIs, track their performance, and ensure reliability. It can be a useful tool for developers and teams to keep an eye on their APIs' uptime, response times, and errors."
+authors = ["karthik-yml <karthik.tv@ymedialabs.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.2"
+djangorestframework = "3.15.2"
+djangorestframework-simplejwt = "5.3.1"
+drf-yasg = "^1.21.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
